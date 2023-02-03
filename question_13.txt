@@ -1,0 +1,2 @@
+Regex is short of regular expression, it is string of text that lets match patterns 
+to check if string is alphanumeric we use /^[a-z0-9]+$/i

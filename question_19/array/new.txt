@@ -1,0 +1,11 @@
+insert into users (id, email,password,"firstName","lastName",phone,"createdAt","updatedAt",meta)
+values
+(gen_random_uuid (),
+'raoarpit@gmail.com',
+'password',
+'Arpit',
+'Rao',
+8974788472,
+round(extract(epoch from (Select now()))*1000),
+round(extract(epoch from (Select now()))*1000),
+'{"address":[{"name": "Arpit Rao", "fileNo": 345, "society": "GMD"}], "userpic":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fanimals%2F&psig=AOvVaw0EG4YlGoMybdx8MG6DvhY0&ust=1675418393879000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLjkgIPK9vwCFQAAAAAdAAAAABAE"}');

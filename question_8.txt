@@ -1,0 +1,8 @@
+let a;
+console.log(a === undefined); -> true
+console.log(a === null); -> false
+console.log(a * 2);-> NaN
+console.log(`${a} is the value of a`); -> "undefined is the value of a"
+
+we have not initialised the variable therfore the first console.log will be true and since undefined != null
+next console.log will be false and if we do math operation with undefined we get NaN

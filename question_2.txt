@@ -1,0 +1,5 @@
+let arrayValue = [3, 5, 7];
+let [x, , y] = arrayValue;
+here we are destructuring the array and value of x = 3 there is variable for storing the value of 5 therefore
+the value of y = 7
+

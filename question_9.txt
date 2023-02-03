@@ -1,0 +1,8 @@
+(function(){
+setTimeout(()=> console.log(1),2000);
+console.log(2);
+setTimeout(()=> console.log(3),0);
+console.log(4);
+})();
+
+// first 2 will be printed then 4 after that 3 then in the end 1 will be printed

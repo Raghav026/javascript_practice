@@ -1,0 +1,5 @@
+const name = "Front ";
+const number = 242;
+console.log(`${name}${number}`);
+we are using back ticks to print value of name and number in console.
+The answer will be "Front 242"

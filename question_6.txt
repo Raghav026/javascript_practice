@@ -1,0 +1,10 @@
+var a = {a: 1};
+var b = {a: 1};
+console.log(a == b);
+console.log(a === b);
+var c = a;
+console.log(a == c);
+console.log(a === c);
+
+since objects are referenced types they are stored in address in memory therefor first 2 console will evaluate
+to false and in line 5 we have coping address of a to c therefore next console will be true
